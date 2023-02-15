@@ -2,7 +2,7 @@
   <div class="formContainer">
     <section class="formHeader">
       <img
-        src="../../public/sdo_logo.png"
+        src="../../../../public/sdo_logo.png"
         alt="" />
     </section>
     <section class="formBody">
@@ -51,23 +51,11 @@ export default {
 .formContainer {
   box-shadow: 5px 10px 12px #29292998;
   width: 300px;
-  /* centering */
-  position: abso4lute;
-  left: 0;
-  right: 0;
-  top: 80px;
-  margin-left: auto;
-  margin-right: auto;
   /* stacking */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-input {
-  width: 80%;
-  height: 2em;
 }
 </style>
 

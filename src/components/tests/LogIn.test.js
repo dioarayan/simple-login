@@ -19,12 +19,3 @@ describe('LogIn', async () => {
   });
 });
 
-describe('Signup', async () => {
-  it('should render Signup', async () => {
-    const wrapper = mount(SignUp);
-
-    await wrapper.find('a').trigger('click');
-    expect(LogIn).toBeTruthy();
-  });
-});
-

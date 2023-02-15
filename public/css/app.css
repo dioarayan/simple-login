@@ -7,19 +7,6 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-.bGround {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../../public/IMG_8921.JPG');
-  background-color: #008f50;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-}
-
 .formHeader {
   background-color: rgb(255, 255, 255);
 }
@@ -61,7 +48,7 @@ form {
 
 input,
 button {
-  border-radius: 10px;
+  border-radius: 7px;
   border: solid gray 1px;
   padding: 5px;
   margin: 4px 3px;
@@ -92,5 +79,10 @@ button {
 .buttonsClass {
   width: 200px;
   text-align: right;
+}
+
+input {
+  width: 80%;
+  height: 2em;
 }
 

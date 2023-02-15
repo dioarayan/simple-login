@@ -1,4 +1,3 @@
 <template>
-  <RouterView />
+  <h1>DashBoard</h1>
 </template>
-
